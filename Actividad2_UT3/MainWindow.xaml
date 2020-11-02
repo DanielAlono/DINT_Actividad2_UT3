@@ -33,6 +33,10 @@
             <Setter Property="CornerRadius"
                     Value="3" />
         </Style>
+        <Style TargetType="WrapPanel">
+            <Setter Property="HorizontalAlignment"
+                    Value="Center" />
+        </Style>
     </Window.Resources>
     <StackPanel>
 
@@ -48,7 +52,7 @@
                     </LinearGradientBrush>
                 </StackPanel.Background>
                 <TextBlock Text="Los Ángeles Lakers" />
-                <WrapPanel HorizontalAlignment="Center">
+                <WrapPanel>
                     <Image Source="3_lakers.png" />
                     <Image Source="9_lakers.png" />
                     <Image Source="14_lakers.png" />
@@ -70,8 +74,8 @@
                     </LinearGradientBrush>
                 </StackPanel.Background>
                 <TextBlock Text="Miami Heat"
-                           Foreground="White"/>
-                <WrapPanel HorizontalAlignment="Center">
+                           Foreground="White" />
+                <WrapPanel>
                     <Image Source="7_heat.png" />
                     <Image Source="13_heat.png" />
                     <Image Source="14_heat.png" />
